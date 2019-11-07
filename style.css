@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: flex;                       /* establish flex container */
+    flex-wrap: wrap;                     /* enable flex items to wrap */
+    justify-content: space-around;
+    
+  }
+  .cell {
+    flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+    height: 500px;
+    margin-bottom: 15px;
+  }
+
+.title{
+    font-size: 24px;
+}
+
+.mainTitle{
+    margin: 30px 0px;
+}
+
